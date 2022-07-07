@@ -8,7 +8,7 @@
 import Foundation
 
 final class ContentViewModel: ObservableObject {
-    private var allPairs = [WordPair]()
+    private(set) var allPairs = [WordPair]()
 
     @Published var currentGameSessionPairs = [WordPair]()
     var currentGameSessionPair: WordPair? {
@@ -27,7 +27,7 @@ final class ContentViewModel: ObservableObject {
 
     private var timer: Timer?
 
-    private struct Consts {
+    struct Consts {
         static let gameSessionWordPairsNumber = 15
         static let correctWordPairsNumber: Int = {
             Int((Double(gameSessionWordPairsNumber) / 100 * 25).rounded())

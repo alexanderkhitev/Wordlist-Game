@@ -12,6 +12,10 @@ struct WordPair: Decodable {
     var textSpa: String
     var option: Option
 
+    var id: String {
+        textEng + "-" + textSpa
+    }
+
     enum Key: String, CodingKey {
         case textEng = "text_eng"
         case textSpa = "text_spa"
@@ -28,5 +32,11 @@ struct WordPair: Decodable {
         textEng = try container.decode(String.self, forKey: .textEng)
         textSpa = try container.decode(String.self, forKey: .textSpa)
         option = .correct
+    }
+}
+
+extension WordPair: Equatable {
+    static func == (lhs: Self, rhs: Self) -> Bool {
+        lhs.id == rhs.id
     }
 }

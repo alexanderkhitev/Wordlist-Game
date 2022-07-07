@@ -12,8 +12,6 @@
 		349FE3082876C33600FB6DEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 349FE3072876C33600FB6DEA /* Assets.xcassets */; };
 		349FE30B2876C33600FB6DEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 349FE30A2876C33600FB6DEA /* Preview Assets.xcassets */; };
 		349FE3152876C33600FB6DEA /* Wordlist_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349FE3142876C33600FB6DEA /* Wordlist_GameTests.swift */; };
-		349FE31F2876C33600FB6DEA /* Wordlist_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349FE31E2876C33600FB6DEA /* Wordlist_GameUITests.swift */; };
-		349FE3212876C33600FB6DEA /* Wordlist_GameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349FE3202876C33600FB6DEA /* Wordlist_GameUITestsLaunchTests.swift */; };
 		349FE3312876C3A200FB6DEA /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349FE3302876C3A200FB6DEA /* ContentViewModel.swift */; };
 		349FE3352876C3D800FB6DEA /* WordPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349FE3342876C3D800FB6DEA /* WordPair.swift */; };
 		349FE3382876C3F900FB6DEA /* words.json in Resources */ = {isa = PBXBuildFile; fileRef = 349FE3372876C3F900FB6DEA /* words.json */; };
@@ -31,13 +29,6 @@
 			remoteGlobalIDString = 349FE2FF2876C33300FB6DEA;
 			remoteInfo = "Wordlist-Game";
 		};
-		349FE31B2876C33600FB6DEA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 349FE2F82876C33300FB6DEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 349FE2FF2876C33300FB6DEA;
-			remoteInfo = "Wordlist-Game";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -48,9 +39,6 @@
 		349FE30A2876C33600FB6DEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		349FE3102876C33600FB6DEA /* Wordlist-GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wordlist-GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		349FE3142876C33600FB6DEA /* Wordlist_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wordlist_GameTests.swift; sourceTree = "<group>"; };
-		349FE31A2876C33600FB6DEA /* Wordlist-GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wordlist-GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		349FE31E2876C33600FB6DEA /* Wordlist_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wordlist_GameUITests.swift; sourceTree = "<group>"; };
-		349FE3202876C33600FB6DEA /* Wordlist_GameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wordlist_GameUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		349FE3302876C3A200FB6DEA /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		349FE3342876C3D800FB6DEA /* WordPair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordPair.swift; sourceTree = "<group>"; };
 		349FE3372876C3F900FB6DEA /* words.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = words.json; sourceTree = "<group>"; };
@@ -75,13 +63,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		349FE3172876C33600FB6DEA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -90,7 +71,6 @@
 			children = (
 				349FE3022876C33300FB6DEA /* Wordlist-Game */,
 				349FE3132876C33600FB6DEA /* Wordlist-GameTests */,
-				349FE31D2876C33600FB6DEA /* Wordlist-GameUITests */,
 				349FE3012876C33300FB6DEA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,7 +80,6 @@
 			children = (
 				349FE3002876C33300FB6DEA /* Wordlist-Game.app */,
 				349FE3102876C33600FB6DEA /* Wordlist-GameTests.xctest */,
-				349FE31A2876C33600FB6DEA /* Wordlist-GameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,15 +113,6 @@
 				349FE3142876C33600FB6DEA /* Wordlist_GameTests.swift */,
 			);
 			path = "Wordlist-GameTests";
-			sourceTree = "<group>";
-		};
-		349FE31D2876C33600FB6DEA /* Wordlist-GameUITests */ = {
-			isa = PBXGroup;
-			children = (
-				349FE31E2876C33600FB6DEA /* Wordlist_GameUITests.swift */,
-				349FE3202876C33600FB6DEA /* Wordlist_GameUITestsLaunchTests.swift */,
-			);
-			path = "Wordlist-GameUITests";
 			sourceTree = "<group>";
 		};
 		349FE32D2876C35A00FB6DEA /* App */ = {
@@ -274,24 +244,6 @@
 			productReference = 349FE3102876C33600FB6DEA /* Wordlist-GameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		349FE3192876C33600FB6DEA /* Wordlist-GameUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 349FE32A2876C33600FB6DEA /* Build configuration list for PBXNativeTarget "Wordlist-GameUITests" */;
-			buildPhases = (
-				349FE3162876C33600FB6DEA /* Sources */,
-				349FE3172876C33600FB6DEA /* Frameworks */,
-				349FE3182876C33600FB6DEA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				349FE31C2876C33600FB6DEA /* PBXTargetDependency */,
-			);
-			name = "Wordlist-GameUITests";
-			productName = "Wordlist-GameUITests";
-			productReference = 349FE31A2876C33600FB6DEA /* Wordlist-GameUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -306,10 +258,6 @@
 						CreatedOnToolsVersion = 13.4.1;
 					};
 					349FE30F2876C33600FB6DEA = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = 349FE2FF2876C33300FB6DEA;
-					};
-					349FE3192876C33600FB6DEA = {
 						CreatedOnToolsVersion = 13.4.1;
 						TestTargetID = 349FE2FF2876C33300FB6DEA;
 					};
@@ -330,7 +278,6 @@
 			targets = (
 				349FE2FF2876C33300FB6DEA /* Wordlist-Game */,
 				349FE30F2876C33600FB6DEA /* Wordlist-GameTests */,
-				349FE3192876C33600FB6DEA /* Wordlist-GameUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -347,13 +294,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		349FE30E2876C33600FB6DEA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		349FE3182876C33600FB6DEA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -386,15 +326,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		349FE3162876C33600FB6DEA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				349FE3212876C33600FB6DEA /* Wordlist_GameUITestsLaunchTests.swift in Sources */,
-				349FE31F2876C33600FB6DEA /* Wordlist_GameUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -402,11 +333,6 @@
 			isa = PBXTargetDependency;
 			target = 349FE2FF2876C33300FB6DEA /* Wordlist-Game */;
 			targetProxy = 349FE3112876C33600FB6DEA /* PBXContainerItemProxy */;
-		};
-		349FE31C2876C33600FB6DEA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 349FE2FF2876C33300FB6DEA /* Wordlist-Game */;
-			targetProxy = 349FE31B2876C33600FB6DEA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -625,42 +551,6 @@
 			};
 			name = Release;
 		};
-		349FE32B2876C33600FB6DEA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 35L77VM7C3;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.khitev.Wordlist-GameUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Wordlist-Game";
-			};
-			name = Debug;
-		};
-		349FE32C2876C33600FB6DEA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 35L77VM7C3;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.khitev.Wordlist-GameUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Wordlist-Game";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -687,15 +577,6 @@
 			buildConfigurations = (
 				349FE3282876C33600FB6DEA /* Debug */,
 				349FE3292876C33600FB6DEA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		349FE32A2876C33600FB6DEA /* Build configuration list for PBXNativeTarget "Wordlist-GameUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				349FE32B2876C33600FB6DEA /* Debug */,
-				349FE32C2876C33600FB6DEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
